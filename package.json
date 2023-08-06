@@ -1,6 +1,6 @@
 {
   "name": "is-actual-promise",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Verify if something is a Promise",
   "main": "./dist/cjs/index.js",
   "module": "./dist/mjs/index.js",
