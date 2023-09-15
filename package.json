@@ -49,9 +49,10 @@
     "url": "git+https://github.com/isaacs/is-actual-promise.git"
   },
   "devDependencies": {
+    "pacote": "^17.0.3",
     "prettier": "^2.8.2",
     "sync-content": "^1.0.2",
-    "tap": "^18.0.0-12",
+    "tap": "^18.0.1",
     "typedoc": "^0.24.8",
     "typescript": "^5.1.6"
   },
@@ -65,5 +66,8 @@
     "bracketSameLine": true,
     "arrowParens": "avoid",
     "endOfLine": "lf"
+  },
+  "dependencies": {
+    "@tapjs/nock": "^3.0.1"
   }
 }
