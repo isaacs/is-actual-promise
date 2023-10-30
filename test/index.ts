@@ -1,5 +1,5 @@
 import t from 'tap'
-import { isPromise } from '../dist/cjs/index.js'
+import { isPromise } from '../dist/esm/index.js'
 
 t.equal(isPromise(Promise.resolve(true)), true)
 t.equal(isPromise(Promise.resolve(true).then(() => {})), true)
